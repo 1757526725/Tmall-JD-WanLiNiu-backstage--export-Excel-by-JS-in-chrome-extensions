@@ -1,0 +1,25 @@
+﻿{
+    "content_scripts": [{
+        "all_frames": true,
+        "exclude_globs": [],
+        "exclude_matches": [],
+        "include_globs": [],
+        "js": ["jquery.min.js", "MouseCheck.js", "Blob.js", "FileSaver.js"],
+        "matches": ["https://afs.shop.jd.com/*"]
+    }],
+    "browser_action": {
+        "default_icon": "AppIcon.png",
+        "default_title": "京东后台订单信息导出"
+    },
+    "description": "京东后台订单信息导出",
+    "key": "7k6gnXVACvUPU2DfslJgSrWJT5aghsjdkfhgl/5zSg==",
+    "name": "京东后台订单信息导出",
+    "version": "1.0.1",
+    "manifest_version": 3,
+    "icons": {
+        "16": "AppIcon.png",
+        "32": "AppIcon.png",
+        "48": "AppIcon.png",
+        "128": "AppIcon.png"
+    }
+}

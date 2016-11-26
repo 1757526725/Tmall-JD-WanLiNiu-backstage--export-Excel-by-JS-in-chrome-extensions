@@ -1,0 +1,26 @@
+﻿{
+    "content_scripts": [{
+        "all_frames": true,
+        "exclude_globs": [],
+        "exclude_matches": [],
+        "include_globs": [],
+        "js": ["jquery.min.js", "MouseCheck.js", "FileSaver.js", "Blob.js", "layer.js"],
+        "css": ["layer.css"],
+        "matches": ["https://seller-rate.tmall.com/*"]
+    }],
+    "browser_action": {
+        "default_icon": "AppIcon.png",
+        "default_title": "淘宝后台辅助"
+    },
+    "description": "淘宝后台取订单号辅助",
+    "key": "7k6gnXVACvUPU2DfslJgSrWJTHqIg5uwd+Kgl/5zSg==",
+    "name": "淘宝后台取订单号",
+    "version": "3.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "AppIcon.png",
+        "32": "AppIcon.png",
+        "48": "AppIcon.png",
+        "128": "AppIcon.png"
+    }
+}

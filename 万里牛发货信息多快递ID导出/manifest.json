@@ -1,0 +1,25 @@
+﻿{
+	"content_scripts": [ {
+		"all_frames": true,
+		"exclude_globs": [  ],
+		"exclude_matches": [  ],
+		"include_globs": [  ],
+		"js": [ "jquery.min.js","ajax.js","MouseCheck.js","Blob.js", "FileSaver.js"],
+		"matches": [ "http://*.hupun.com/*"]
+	} ],
+	"browser_action": {
+		"default_icon":"AppIcon.png",
+		"default_title":"万里牛订单数据导出"
+	},
+	"description": "万里牛订单快递数据导出程序",
+	"key": "7k6gnXVACvUPU2DfslJgSrWJT54gjyuwd+Kgl/5zSg==",
+	"name": "万里牛订单数据导出",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"icons": {
+		"16": "AppIcon.png",
+		"32": "AppIcon.png",
+		"48": "AppIcon.png",
+		"128": "AppIcon.png"
+	}
+}
